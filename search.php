@@ -20,7 +20,8 @@ if ($conf->goDown === true) {
    $down = "";
 }
 
-$dir = $conf->searchDir:
+$dir = $conf->searchDir;
+
 // Load options
 foreach (glob("$dir/*$ext") as $file) {
     if (!empty($conf->limitOutput) && $conf->limitOutput > 0 && $rep < $limitOutput) {
