@@ -1,9 +1,16 @@
 {
-"header":"path/to/file/header - you can leave empty",
-"specificFile":".html - you can leave empty",
+"header":"header.php - the header file - you can leave it empty",
+"specificFile":".html - search only a specific file extension  - you can leave it empty",
 "goDown":true,
-"searchDir":"/path/to/dir - you can't leave empty",
+"searchDir":"/path/to/dir - directory of the search - you CAN'T LEAVE IT EMPTY",
 "underlined":true,
 "showDir":false,
-"redi":"https://redirect.link/of/the/site - file = %file% - you can leave empty"
+"limitOutput":50,
+"redi":"https://example.lol/sus/?file=%file% - a redirect url where %file% = filename - you can leave it empty",
+"hiddenPrefix":".",
+"errorMessages": {
+      "foundNull":"Hey! Non abbiano trovato nessun file seguendo i tuoi cicli!",
+      "erroEmptyVar":"Hey! Pare che tu abbia impostato male la parte HTML",
+      "forbidden":"LOL"
+    }
 }
