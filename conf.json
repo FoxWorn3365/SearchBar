@@ -1,0 +1,9 @@
+{
+"header":"path/to/file/header - you can leave empty",
+"specificFile":".html - you can leave empty",
+"goDown":true,
+"searchDir":"/path/to/dir - you can't leave empty",
+"underlined":true,
+"showDir":false,
+"redi":"https://redirect.link/of/the/site - file = %file% - you can leave empty"
+}
